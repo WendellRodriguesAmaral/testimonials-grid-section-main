@@ -10,6 +10,7 @@
     min-width:100vw;
     min-height:100vh;
     padding:4rem 2rem;
+    /* background-color:hsl(210, 46%, 95%); */
 }
 
 .every-cards{
@@ -21,14 +22,14 @@
 }
 
 div.card{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding:1rem;
     border-radius: 10px;
     position: relative;
 }
 
 div.card:nth-child(1){
-    background-color:hsl(263, 55%, 52%);
+    background-color:hsla(263, 55%, 52%, 0.87);
     z-index: -1;
 }
 
@@ -64,3 +65,50 @@ div.info-person>.graduate{
     opacity: 50%;
     font-size:13px ;
 }
+div.text{
+    padding-left: 1rem;
+}
+
+div.title-testimonial{
+    margin-bottom:1rem
+}
+div.title-testimonial>p{
+    color: white;
+    font-size:1.6rem;
+}
+
+.testimonial>p{
+    color:hsl(210, 46%, 95%);
+    opacity:30%;
+    font-size: 14px;
+    line-height:1.2;
+    word-spacing: 1px;
+    /* padding-right: 2rem; */
+}
+
+div.card:nth-child(2){
+    background-color: hsl(217, 19%, 35%);
+}
+
+.grey-card>p {
+    color:hsl(210, 46%, 95%);
+    /* background-color:red; */
+    opacity:70%
+}
+
+div.card:nth-child(3){
+    background-color: #fff;
+}
+div.text:nth-child(2) div>p{
+    color:hsl(217, 19%, 35%)
+}
+
+.grey-card div.info-person p{
+    color:hsl(217, 19%, 35%)
+}
+
+.grey-card div.testimonial p{
+    opacity: 80%;
+}
+
+/*criar classes especificar para cada testimonial*/
