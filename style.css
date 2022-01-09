@@ -15,7 +15,7 @@
 
 .every-cards{
     width: auto;
-    height: auto;
+    /* height: auto; */
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -120,3 +120,80 @@ div.Kira-card .identifier .info-person p, .Kira-card .text>div>p {
 .Kira-card .text .testimonial p{
     opacity: 60%; 
  }
+
+/*FINISH THE MOBILE VERSION*/
+
+@media(min-width:768px){
+    .all{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding:0;
+    }
+
+    .every-cards{
+        width: 80%;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    div.card{
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
+    .Daniel-card{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start:1;
+        grid-column-end: 3;
+    }
+
+    .Jeanette-card{
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        }
+
+.Patrick-card{
+    grid-column-start:2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
+.Kira-card{
+    grid-column-start:4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+
+div.card>img.quotation{ 
+    right:5rem; 
+}
+
+div.title-testimonial>p{
+    font-size:1.3rem;
+}
+
+.testimonial>p{
+  
+    font-size: 12px;
+    line-height:1.5;
+    word-spacing: 1px;
+    /* padding-right: 2rem; */
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
