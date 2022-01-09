@@ -10,7 +10,7 @@
     min-width:100vw;
     min-height:100vh;
     padding:4rem 2rem;
-    /* background-color:hsl(210, 46%, 95%); */
+    background-color:hsl(210, 46%, 95%);
 }
 
 .every-cards{
@@ -30,7 +30,7 @@ div.card{
 
 div.card:nth-child(1){
     background-color:hsla(263, 55%, 52%, 0.87);
-    z-index: -1;
+    z-index: 1;
 }
 
 div.identifier{
@@ -55,7 +55,6 @@ div.identifier>.image>img{
     border-radius: 100%;
     border: solid 4px hsla(0, 0%, 81%, 0.39)
 }
-
 
 div.info-person>p.name, .graduate{
     color:hsl(210, 46%, 95%);
@@ -86,29 +85,23 @@ div.title-testimonial>p{
     /* padding-right: 2rem; */
 }
 
-div.card:nth-child(2){
-    background-color: hsl(217, 19%, 35%);
+.Jonathan-card{
+    background-color:hsl(217, 19%, 35%);
 }
 
-.grey-card>p {
-    color:hsl(210, 46%, 95%);
-    /* background-color:red; */
-    opacity:70%
+.Jonathan-card .text .testimonial p{
+   opacity: 60%; 
 }
 
-div.card:nth-child(3){
-    background-color: #fff;
-}
-div.text:nth-child(2) div>p{
-    color:hsl(217, 19%, 35%)
+div.Jeanette-card{
+    background-color: white;
 }
 
-.grey-card div.info-person p{
-    color:hsl(217, 19%, 35%)
+div.Jeanette-card .identifier .info-person p, .Jeanette-card .text>div>p {
+    color:hsl(217, 19%, 35%);
 }
+.Jeanette-card .text .testimonial p{
+    opacity: 60%; 
+ }
 
-.grey-card div.testimonial p{
-    opacity: 80%;
-}
-
-/*criar classes especificar para cada testimonial*/
+ 
