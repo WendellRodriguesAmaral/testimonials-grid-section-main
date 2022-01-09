@@ -18,14 +18,16 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 div.card{
     /* border: 1px solid black; */
     padding:1rem;
     border-radius: 10px;
+    padding-bottom: 2rem;
     position: relative;
+    box-shadow: 1px 1px 20px 1px rgba(128, 128, 128, 0.356);
 }
 
 div.card:nth-child(1){
@@ -104,4 +106,17 @@ div.Jeanette-card .identifier .info-person p, .Jeanette-card .text>div>p {
     opacity: 60%; 
  }
 
- 
+ .Patrick-card{
+     background-color:hsl(219, 29%, 14%);
+ }
+
+ div.Kira-card{
+    background-color: white;
+}
+
+div.Kira-card .identifier .info-person p, .Kira-card .text>div>p {
+    color:hsl(217, 19%, 35%);
+}
+.Kira-card .text .testimonial p{
+    opacity: 60%; 
+ }
